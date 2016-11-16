@@ -1,0 +1,18 @@
+public class Card 
+{
+	private char suit, face;
+	public Card()
+	{
+		face='A';
+		suit='\u2665';
+	}
+	
+	public Card(char f, char s)
+	{
+		face=f;
+		suit=s;
+	}
+	public String toString(){
+	return face+""+suit;}
+	
+}
