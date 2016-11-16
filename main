@@ -1,0 +1,26 @@
+/*COSC 111
+ * 11/16/16
+ * More Arrays.
+ * 
+ * Array of objects.
+ * type[]name=new type[size];
+ * arr[i]=new Student (in a loop)
+ * 
+ */
+public class Test 
+{
+
+	public static void main(String[] args) 
+	{
+		Deck d1=new Deck();
+		d1.shufflecards();
+	  d1.showCard();
+	}
+// sequential search look at everyone
+	// binary search looks through sorted 
+	// selection sort
+	// assume the first element in the array is the smallest 
+	// find smaller one in the array and swap the two 
+	// continue assuming each position and that element is the smallest for that position 
+	// until you find another smaller one.
+}
